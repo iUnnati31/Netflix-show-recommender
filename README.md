@@ -21,8 +21,9 @@ The Jupyter notebook (`notebook.ipynb`) contains the following steps:
 
 1. **Loading the Data**: Import the movie dataset and perform initial exploration.
 2. **Data Preprocessing**: Clean the dataset by handling missing values and normalizing features like genres, cast, etc.
-3. **Similarity Calculation**: Use vectorized features such as genres and cast to compute similarity scores for the recommendation system.
-4. **Model Building**: Implement a content-based recommendation algorithm using cosine similarity.
+3. **Embedding with Sentence Transformers**: Compute embeddings for textual features using the `'cointegrated/rubert-tiny2'` model.
+4. **Similarity Calculation**: Use vectorized features such as genres and cast to compute similarity scores for the recommendation system.
+5. **Model Building**: Implement a content-based recommendation algorithm using cosine similarity.
 
 ## Streamlit App
 
@@ -73,6 +74,8 @@ To get started with the project, follow these steps:
    - `pickle`
    - `scikit-learn`
    - `numpy`
+   - `nltk`
+   - `sentence-transformers`
 
 ## Usage
 
