@@ -18,7 +18,7 @@ def recommend(show):
 
     return recommended_show
 
-st.title('🎬 Netflix Recommender System 🍿')
+st.title('🎬 StreamGenie – A magical way to find what to watch next. 🍿')
 
 # Create a sidebar with options for different tabs
 tabs = ["🎥 Recommendations", "🌟 Top Genres", "🎭 Top Cast", "🌍 Top Countries", "🎬 Top Directors"]
