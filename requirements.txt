@@ -1,1 +1,7 @@
 streamlit
+pandas
+pickle
+scikit-learn
+numpy
+nltk
+sentence-transformers
